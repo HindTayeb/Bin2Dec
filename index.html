@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Bin2Dec</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="pt-5">Bin2Dec</h1>
+        <p>Welcome to Bin2Dec, Bin2Dec allows the user to enter strings of up to 8 binary digits, 0's and 1's, in any
+            sequence and then displays its decimal equivalent.</p>
+        <h5>Please enter the binary number</h5>
+        <div class='alert alert-danger' role='alert' hidden>danger alert</div>
+        <form action="/" method="POST" id="convertForm">
+            <div class="form-row">
+                <div class="col-md-5 mb-3">
+                    <input type='text' class='form-control' name='binaryInput' id='binaryInput' required>
+                </div>
+                <h2 class="col-md-1">=</h2>
+                <div class="col-md-5 mb-3">
+                    <input type='number' class='form-control' id='decimalOutput' readonly>
+                </div>
+            </div>
+            <button class="btn btn-primary" type="submit">Convert</button>
+        </form>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.35.3/es6-shim.min.js"></script>
+</body>
+
+</html>
