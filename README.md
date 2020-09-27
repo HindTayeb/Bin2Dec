@@ -13,7 +13,26 @@ This challenge requires that the developer implementing it follow these constrai
 - Arrays may not be used to contain the binary digits entered by the user
 - Determining the decimal equivalent of a particular binary digit in the sequence must be calculated using a single mathematical function, for example the natural logarithm. It's up to you to figure out which function to use.
 
-### User Stories
+## User Stories
 - User can enter up to 8 binary digits in one input field
 - User must be notified if anything other than a 0 or 1 was entered
 - User views the results in a single output field containing the decimal (base 10) equivalent of the binary number that was entered
+
+
+## Initial setup
+1. Fork this project to your Github account.
+2. Locally clone your forked version to begin working on the project.
+3. Install requirements using:
+```
+npm install
+```
+
+## Running the app
+To run the server locally, after locating your file in the command shell you can run:
+```
+node app.js
+```
+or:
+```
+nodemon app.js
+```
